@@ -27,6 +27,7 @@ class CustomMovieeCell : UITableViewCell{
         textView.isScrollEnabled = false
         textView.font = UIFont(name: "HelveticaNeue", size: 25)
 
+        
         return textView
     }()
     
