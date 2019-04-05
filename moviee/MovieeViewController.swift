@@ -20,9 +20,8 @@ struct CellData {
 class MovieeViewController: UITableViewController {
     
     var arrData = [jsonModel]()
-    var datax = [CellData]()
     var arrImages = [(UIImage,String)]()
-   var randomColor = UIColor.randomFlat()
+    var randomColor = UIColor.randomFlat()
 
 
     override func viewDidLoad() {
@@ -102,6 +101,7 @@ class MovieeViewController: UITableViewController {
                 
                     self.arrData.append(jsonModel(json: arr))
                 }
+                self.sortByPopularity()
             }catch{
                 print(error.localizedDescription)
             }
@@ -112,6 +112,14 @@ class MovieeViewController: UITableViewController {
         
         randomColor = UIColor.randomFlat()
     }
+    
+    func sortByPopularity() {
+        self.arrData.sort{
+            return $0.actorPopularity > $1.actorPopularity
+        }
+    }
+    
+    
     
 }
 
@@ -135,6 +143,7 @@ extension MovieeViewController : UISearchBarDelegate {
                     self.arrData.append(jsonModel(json: arr))
                     
                 }
+                self.sortByPopularity()
                 
                 let alert = UIAlertController(title: "", message: String(self.arrData.count) + " people found", preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
@@ -142,9 +151,7 @@ extension MovieeViewController : UISearchBarDelegate {
                 
                 searchBar.tintColor = FlatSkyBlue()
               
-                
-
-                
+  
 
             }catch{
                 print(error.localizedDescription)
