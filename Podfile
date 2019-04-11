@@ -8,5 +8,10 @@ target 'moviee' do
   # Pods for moviee
     pod 'SwiftyJSON'
     pod 'ChameleonFramework/Swift'
+    
+    target 'movieeTests' do
+        inherit! :search_paths
+        pod 'SwiftyJSON'
+    end
 
 end

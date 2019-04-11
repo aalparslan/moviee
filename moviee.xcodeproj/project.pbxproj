@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E813F872AC6BEC1D4BF946F /* Pods_movieeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E5967C9B9442B457AFBCA /* Pods_movieeTests.framework */; };
 		8E2F95A1A9872B40DDE8C84F /* Pods_moviee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FD41FFEA5AB8D1E09C4274 /* Pods_moviee.framework */; };
 		AC4AB446225512DF008A53D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AB445225512DF008A53D7 /* AppDelegate.swift */; };
 		AC4AB448225512DF008A53D7 /* MovieeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AB447225512DF008A53D7 /* MovieeViewController.swift */; };
@@ -15,10 +16,27 @@
 		AC4AB450225512E0008A53D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4AB44E225512E0008A53D7 /* LaunchScreen.storyboard */; };
 		AC4AB46022551E2F008A53D7 /* CustomMovieeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AB45F22551E2F008A53D7 /* CustomMovieeCell.swift */; };
 		AC7526032255F31F0041C7D5 /* jsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7526022255F31F0041C7D5 /* jsonModel.swift */; };
+		ACCF56D8225E4F2700D2B76A /* movieeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF56D7225E4F2700D2B76A /* movieeTests.swift */; };
+		ACFF27DD225CF2A80045744F /* MovieePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF27DC225CF2A80045744F /* MovieePresenter.swift */; };
+		ACFF27E3225CF3070045744F /* MovieeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF27E2225CF3070045744F /* MovieeProtocol.swift */; };
+		ACFF27E5225CF3260045744F /* MovieeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF27E4225CF3260045744F /* MovieeInteractor.swift */; };
+		ACFF27E7225CF33B0045744F /* MovieeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF27E6225CF33B0045744F /* MovieeRouter.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACCF56DA225E4F2700D2B76A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4AB43A225512DF008A53D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4AB441225512DF008A53D7;
+			remoteInfo = moviee;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		07143FB30201AA5EBF58F6EB /* Pods-moviee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moviee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moviee/Pods-moviee.debug.xcconfig"; sourceTree = "<group>"; };
+		2063DD1D8C080079870DC168 /* Pods-movieeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movieeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-movieeTests/Pods-movieeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AAC20B71EFFF0D18C290515 /* Pods-movieeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movieeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-movieeTests/Pods-movieeTests.release.xcconfig"; sourceTree = "<group>"; };
 		5F29A61F284356CE2E5CFD16 /* Pods-moviee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moviee.release.xcconfig"; path = "Pods/Target Support Files/Pods-moviee/Pods-moviee.release.xcconfig"; sourceTree = "<group>"; };
 		83FD41FFEA5AB8D1E09C4274 /* Pods_moviee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moviee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4AB442225512DF008A53D7 /* moviee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moviee.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +48,14 @@
 		AC4AB451225512E0008A53D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC4AB45F22551E2F008A53D7 /* CustomMovieeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMovieeCell.swift; sourceTree = "<group>"; };
 		AC7526022255F31F0041C7D5 /* jsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonModel.swift; sourceTree = "<group>"; };
+		ACCF56D5225E4F2600D2B76A /* movieeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = movieeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCF56D7225E4F2700D2B76A /* movieeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieeTests.swift; sourceTree = "<group>"; };
+		ACCF56D9225E4F2700D2B76A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFF27DC225CF2A80045744F /* MovieePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieePresenter.swift; sourceTree = "<group>"; };
+		ACFF27E2225CF3070045744F /* MovieeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieeProtocol.swift; sourceTree = "<group>"; };
+		ACFF27E4225CF3260045744F /* MovieeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieeInteractor.swift; sourceTree = "<group>"; };
+		ACFF27E6225CF33B0045744F /* MovieeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieeRouter.swift; sourceTree = "<group>"; };
+		CA5E5967C9B9442B457AFBCA /* Pods_movieeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_movieeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +67,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ACCF56D2225E4F2600D2B76A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E813F872AC6BEC1D4BF946F /* Pods_movieeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -48,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				AC4AB444225512DF008A53D7 /* moviee */,
+				ACCF56D6225E4F2700D2B76A /* movieeTests */,
 				AC4AB443225512DF008A53D7 /* Products */,
 				BEAE3B6109059A5060936FB2 /* Pods */,
 				E6D6A73C2CD9399833FA2067 /* Frameworks */,
@@ -58,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				AC4AB442225512DF008A53D7 /* moviee.app */,
+				ACCF56D5225E4F2600D2B76A /* movieeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,16 +101,109 @@
 		AC4AB444225512DF008A53D7 /* moviee */ = {
 			isa = PBXGroup;
 			children = (
-				AC4AB445225512DF008A53D7 /* AppDelegate.swift */,
-				AC4AB447225512DF008A53D7 /* MovieeViewController.swift */,
-				AC4AB45F22551E2F008A53D7 /* CustomMovieeCell.swift */,
-				AC7526022255F31F0041C7D5 /* jsonModel.swift */,
-				AC4AB449225512DF008A53D7 /* Main.storyboard */,
-				AC4AB44C225512E0008A53D7 /* Assets.xcassets */,
-				AC4AB44E225512E0008A53D7 /* LaunchScreen.storyboard */,
+				ACFF27D9225CF1CA0045744F /* app-icons */,
+				ACFF27DA225CF1DA0045744F /* app-ui */,
+				ACFF27DB225CF2010045744F /* app-settings */,
+				ACFF27D1225CF0D50045744F /* module */,
 				AC4AB451225512E0008A53D7 /* Info.plist */,
 			);
 			path = moviee;
+			sourceTree = "<group>";
+		};
+		ACCF56D6225E4F2700D2B76A /* movieeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACCF56D7225E4F2700D2B76A /* movieeTests.swift */,
+				ACCF56D9225E4F2700D2B76A /* Info.plist */,
+			);
+			path = movieeTests;
+			sourceTree = "<group>";
+		};
+		ACFF27D1225CF0D50045744F /* module */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF27D2225CF0DC0045744F /* view */,
+				ACFF27D4225CF0FA0045744F /* presenter */,
+				ACFF27D5225CF11F0045744F /* router */,
+				ACFF27D6225CF1260045744F /* interactor */,
+				ACFF27D7225CF12E0045744F /* entity */,
+				ACFF27D8225CF1350045744F /* protocols */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		ACFF27D2225CF0DC0045744F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AB447225512DF008A53D7 /* MovieeViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		ACFF27D4225CF0FA0045744F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF27DC225CF2A80045744F /* MovieePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		ACFF27D5225CF11F0045744F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF27E6225CF33B0045744F /* MovieeRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		ACFF27D6225CF1260045744F /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF27E4225CF3260045744F /* MovieeInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		ACFF27D7225CF12E0045744F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				AC7526022255F31F0041C7D5 /* jsonModel.swift */,
+				AC4AB45F22551E2F008A53D7 /* CustomMovieeCell.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		ACFF27D8225CF1350045744F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF27E2225CF3070045744F /* MovieeProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		ACFF27D9225CF1CA0045744F /* app-icons */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AB44C225512E0008A53D7 /* Assets.xcassets */,
+			);
+			path = "app-icons";
+			sourceTree = "<group>";
+		};
+		ACFF27DA225CF1DA0045744F /* app-ui */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AB449225512DF008A53D7 /* Main.storyboard */,
+				AC4AB44E225512E0008A53D7 /* LaunchScreen.storyboard */,
+			);
+			path = "app-ui";
+			sourceTree = "<group>";
+		};
+		ACFF27DB225CF2010045744F /* app-settings */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AB445225512DF008A53D7 /* AppDelegate.swift */,
+			);
+			path = "app-settings";
 			sourceTree = "<group>";
 		};
 		BEAE3B6109059A5060936FB2 /* Pods */ = {
@@ -82,6 +211,8 @@
 			children = (
 				07143FB30201AA5EBF58F6EB /* Pods-moviee.debug.xcconfig */,
 				5F29A61F284356CE2E5CFD16 /* Pods-moviee.release.xcconfig */,
+				2063DD1D8C080079870DC168 /* Pods-movieeTests.debug.xcconfig */,
+				2AAC20B71EFFF0D18C290515 /* Pods-movieeTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -90,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				83FD41FFEA5AB8D1E09C4274 /* Pods_moviee.framework */,
+				CA5E5967C9B9442B457AFBCA /* Pods_movieeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,6 +248,26 @@
 			productReference = AC4AB442225512DF008A53D7 /* moviee.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ACCF56D4225E4F2600D2B76A /* movieeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACCF56DE225E4F2700D2B76A /* Build configuration list for PBXNativeTarget "movieeTests" */;
+			buildPhases = (
+				E94AFF21FA0E109B28B8592B /* [CP] Check Pods Manifest.lock */,
+				ACCF56D1225E4F2600D2B76A /* Sources */,
+				ACCF56D2225E4F2600D2B76A /* Frameworks */,
+				ACCF56D3225E4F2600D2B76A /* Resources */,
+				A0F78FC4E8330FFDE8EF0A2C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACCF56DB225E4F2700D2B76A /* PBXTargetDependency */,
+			);
+			name = movieeTests;
+			productName = movieeTests;
+			productReference = ACCF56D5225E4F2600D2B76A /* movieeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -128,6 +280,10 @@
 				TargetAttributes = {
 					AC4AB441225512DF008A53D7 = {
 						CreatedOnToolsVersion = 10.2;
+					};
+					ACCF56D4225E4F2600D2B76A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = AC4AB441225512DF008A53D7;
 					};
 				};
 			};
@@ -145,6 +301,7 @@
 			projectRoot = "";
 			targets = (
 				AC4AB441225512DF008A53D7 /* moviee */,
+				ACCF56D4225E4F2600D2B76A /* movieeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -157,6 +314,13 @@
 				AC4AB450225512E0008A53D7 /* LaunchScreen.storyboard in Resources */,
 				AC4AB44D225512E0008A53D7 /* Assets.xcassets in Resources */,
 				AC4AB44B225512DF008A53D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCF56D3225E4F2600D2B76A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +373,50 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moviee/Pods-moviee-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A0F78FC4E8330FFDE8EF0A2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-movieeTests/Pods-movieeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-movieeTests/Pods-movieeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94AFF21FA0E109B28B8592B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-movieeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,13 +425,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC4AB448225512DF008A53D7 /* MovieeViewController.swift in Sources */,
+				ACFF27E5225CF3260045744F /* MovieeInteractor.swift in Sources */,
+				ACFF27DD225CF2A80045744F /* MovieePresenter.swift in Sources */,
+				ACFF27E7225CF33B0045744F /* MovieeRouter.swift in Sources */,
 				AC7526032255F31F0041C7D5 /* jsonModel.swift in Sources */,
 				AC4AB446225512DF008A53D7 /* AppDelegate.swift in Sources */,
 				AC4AB46022551E2F008A53D7 /* CustomMovieeCell.swift in Sources */,
+				ACFF27E3225CF3070045744F /* MovieeProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCF56D1225E4F2600D2B76A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCF56D8225E4F2700D2B76A /* movieeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACCF56DB225E4F2700D2B76A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4AB441225512DF008A53D7 /* moviee */;
+			targetProxy = ACCF56DA225E4F2700D2B76A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AC4AB449225512DF008A53D7 /* Main.storyboard */ = {
@@ -399,6 +627,48 @@
 			};
 			name = Release;
 		};
+		ACCF56DC225E4F2700D2B76A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2063DD1D8C080079870DC168 /* Pods-movieeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9WV72B42W;
+				INFOPLIST_FILE = movieeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-dev.movieeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moviee.app/moviee";
+			};
+			name = Debug;
+		};
+		ACCF56DD225E4F2700D2B76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AAC20B71EFFF0D18C290515 /* Pods-movieeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9WV72B42W;
+				INFOPLIST_FILE = movieeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios-dev.movieeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moviee.app/moviee";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,6 +686,15 @@
 			buildConfigurations = (
 				AC4AB455225512E0008A53D7 /* Debug */,
 				AC4AB456225512E0008A53D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACCF56DE225E4F2700D2B76A /* Build configuration list for PBXNativeTarget "movieeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCF56DC225E4F2700D2B76A /* Debug */,
+				ACCF56DD225E4F2700D2B76A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
