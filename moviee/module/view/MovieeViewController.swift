@@ -98,7 +98,8 @@ extension MovieeViewController : UISearchBarDelegate {
    
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
     //Implement Querying data depending on API
-        
+        arrImages.removeAll()
+
         searchBar.showsCancelButton = true
         
         movieePresenter?.startSearchBarFetching(SearchBarText: searchBar.text ?? "brad")
@@ -147,7 +148,6 @@ extension MovieeViewController:PresenterToViewMovieeProtocol{
             self.tableView.reloadData()
 
         }
-        arrImages.removeAll()
 
 
     }
